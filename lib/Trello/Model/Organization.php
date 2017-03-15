@@ -160,7 +160,7 @@ class Organization extends AbstractObject implements OrganizationInterface
      */
     public function getMemberships()
     {
-        return $this->data['memberships'];
+        return $this->data['members'];
     }
 
     /**
